@@ -11,7 +11,8 @@ const PORT = process.env.PORT || 8080;
 
 // Configure options
 const options = {
-    hostname: 'dog.ceo/api/breeds/image/random',
+    hostname: 'dog.ceo',
+    path: '/api/breeds/image/random',
     method: 'GET',
     headers: {
         Accept: 'application/json'
